@@ -1,0 +1,16 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# YouTube Downloader
+pytube
+yt-dlp
+
+# AI & Machine Learning
+openai-whisper
+openai
+google-generativeai
+chromadb
+
+# Utilities
+python-dotenv
