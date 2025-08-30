@@ -1,18 +1,18 @@
-# 💬 YouTube Playlist Chatbot
+#  YouTube Playlist Chatbot
 
 This is a powerful AI-powered chatbot that allows you to have a conversation with the content of any YouTube playlist. The application processes all videos in a given playlist, transcribes the audio, and uses a Retrieval-Augmented Generation (RAG) model to answer your questions based on the video content.
 
 ![Application Screenshot]<img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/949da485-b060-4b3f-a3ab-f1f81868d2c8" />
 
 
-## ✨ Features
+##  Features
 
 * **Process Any Playlist**: Simply provide a YouTube playlist URL to build a knowledge base.
 * **AI-Powered Chat**: Ask questions in natural language and get answers synthesized from the video content.
 * **Source Citing**: The chatbot provides the source video and timestamp for the information it uses to answer your questions.
 * **Real-time Status Updates**: The user interface provides live updates during the multi-step backend processing (Downloading, Transcribing, Storing).
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Backend**: FastAPI
 * **Frontend**: HTML, CSS, JavaScript
@@ -22,7 +22,7 @@ This is a powerful AI-powered chatbot that allows you to have a conversation wit
 * **Vector Database**: ChromaDB
 * **YouTube Downloader**: `yt-dlp`
 
-## ⚙️ How to Run Locally
+##  How to Run Locally
 
 1.  **Clone the repository:**
     ```bash
@@ -43,7 +43,6 @@ This is a powerful AI-powered chatbot that allows you to have a conversation wit
     ```bash
     pip install -r requirements.txt
     ```
-    *Note: For GPU acceleration, ensure you have an NVIDIA GPU with CUDA installed and install the correct PyTorch version by following instructions at the [PyTorch website](https://pytorch.org/get-started/locally/).*
 
 4.  **Set up your API key:**
     * Create a file named `.env` in the root directory.
